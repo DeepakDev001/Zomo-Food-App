@@ -1,0 +1,605 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*================= start_Css_For_Home_Section =====================*/
+.Zomo_TopSection {
+  position: relative;
+  background-image: url('https://themes.pixelstrap.com/zomo-app/assets/images/background/restaurant-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 184px;
+}
+
+.Zomo_Left_Section {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Zomo_Right_Section {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Zomo_Card_Container {
+  padding: 0 20px;
+  background-color: rgba(white, 1);
+}
+
+.Zomo_Details-Card {
+  border: 1px solid rgba(black, 0.05);
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.06);
+  position: relative;
+  background: white;
+  border-radius: 14px;
+  padding: 0 12px;
+  margin-top: -70px;
+  z-index: 1
+}
+
+.Zomo_Head_Section {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px dashed rgba(var(237, 237, 237), 1);
+}
+
+.Zomo_Head_Section img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Zomo_Head_Section h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #414449;
+}
+
+.Zomo_Head_Section h6 {
+  margin-top: 5px;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 0;
+  color: #8d8f91;
+}
+
+.Zomo_Details-Card .Zomo_details {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.Zomo_Details-Card .Zomo_details .Location {
+  width: 60%;
+  border-right: 1px solid rgba(var(237, 237, 237), 1);
+  margin-right: calc(10px + 10 * (100vw - 320px) / 1600);
+  padding-right: calc(10px + 10 * (100vw - 320px) / 1600);
+  color: #414449;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Zomo_Details-Card .Zomo_details .Distance {
+  align-items: center;
+  width: 40%;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.Zomo_Coupan_Section {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Zomo_Offer_Box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 7px;
+  width: 50%;
+}
+
+.Zomo_Offer_Box img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ZomoOffer_content h5 {
+  font-size: 13px;
+  color: #414449;
+  font-weight: 500;
+}
+
+.ZomoOffer_content h6 {
+  margin-top: 5px;
+  color: #8d8f91;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ZomoFood_Symbol {
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px solid rgba(black, 0.05);
+  padding-bottom: 20px;
+  padding-top: 20PX;
+}
+
+.Symbol_Content {
+  display: flex;
+  border: 1px solid rgba(#f8f9fa, 1);
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.Symbol_Content img {
+  width: 15px;
+  height: 15px;
+}
+
+.Symbol_Content h6 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #414449;
+  margin-left: 5px;
+}
+
+.Zomo_Card_Main_Section {
+  padding: 0 20px;
+  background-color: rgba(white, 1);
+}
+
+.Zomo_Card_Head_blk {
+  padding-top: 20px;
+}
+
+.Zomo_Card_Accordin_blk {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Zomo_Card_Accordin_blk h6 {
+  font-size: 14px;
+  color: #414449;
+  font-weight: 500;
+}
+
+.Zomo_Product_blk {
+  display: flex;
+  gap: 15px;
+  /* border-top: 1px solid #8d8f91;
+  border-bottom: 1px solid #8d8f91; */
+
+}
+
+.Zomo_Product_blk:last-child {
+  border-bottom: none;
+}
+
+.Zomo_Product_blk .ZomoProduct-content {
+  width: calc(100% - 130px);
+}
+
+.ZomoProduct-content h5 {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 2px 0;
+  color: #414449;
+}
+
+.ZomoProduct-content img {
+  width: 16px;
+  height: 16px;
+
+}
+
+.Zomo_Product_Rating {
+  display: flex;
+  align-items: center;
+}
+
+.ZomoPoduct_price h6 {
+  font-size: 14px;
+  font-weight: 600 !important;
+  color: #8d8f91;
+
+}
+
+.ZomoPoduct_price span {
+  color: #ff8d2f;
+}
+
+.Zomo_Product_Rating h5 {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.Zomo_Product_blk .ZomoProduct-img {
+  position: relative;
+  text-align: center;
+  width: 122px;
+  height: 138px;
+
+}
+
+.ZomoProduct-img img {
+  width: 126px;
+  height: 126px;
+  border-radius: 12px;
+
+}
+
+
+.Zomo_Product_blk .ZomoProduct_img .Zomoadd_btn {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -15px;
+  box-shadow: 0px 2px 11px rgba(252, 128, 25, 0.14);
+  border-radius: 6px;
+}
+
+.Zomo_Product_blk .ZomoProduct-img .Zomo_Product_Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 17px;
+  border: 1px solid #ff8d2f;
+  color: #ff8d2f;
+  background-color: white;
+  margin: 0;
+  font-size: 14px;
+  border-radius: 6px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -5px;
+  cursor: pointer;
+
+}
+
+
+.cart-popup {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  max-width: 71%;
+  background: linear-gradient(180deg, #414449 1.31%, #1f1f1f 101.06%);
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.14);
+  border-radius: 20px 20px 0px 0px;
+  height: auto;
+  padding: 20px;
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Zomo_Price_item h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff8d2f;
+}
+
+.Zomo_Price_item h6 {
+  font-size: calc(12px + 1 * (100vw - 320px) / 1600);
+  margin-bottom: 0;
+  margin-top: 6px;
+  color: white;
+}
+
+button.Zomo_View_Cart_Btn.btn.btn-secondary {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  background-color: #ff8d2f;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: calc(16px + 2 * (100vw - 320px) / 1600);
+  border-radius: 8px;
+  border: none;
+}
+
+button.Zomo_View_Cart_Btn.btn.btn-secondary:focus:focus-visible {
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  background-color: #ff8d2f;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: calc(16px + 2 * (100vw - 320px) / 1600);
+  border-radius: 8px;
+}
+
+button.Zomo_View_Cart_Btn.btn.btn-secondary:active:focus {
+  background-color: #ff8d2f;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  background-color: #ff8d2f;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: calc(16px + 2 * (100vw - 320px) / 1600);
+  border-radius: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.View_Detail_Box {
+  padding-top: 20px;
+}
+
+.View_Detail_container {
+  padding: 0 20px;
+  background-color: white;
+}
+
+.View_Detail_HeadSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.View_Detail_HeadSection h2 {
+  position: absolute;
+  font-weight: 600;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: rgba(var(--dark-text), 1);
+  font-size: 18px;
+}
+
+.View_Detail_CardBox {
+  display: flex;
+  justify-content: space-between;
+  padding: calc(10px + 10 * (100vw - 320px) / 1600);
+  background: rgba(var(--white), 1);
+  border: 1px solid rgba(var(--black), 0.05);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.Card_Left_Section {
+  display: flex;
+}
+
+.Card_Left_Section img {
+  width: 78px;
+  height: 78px;
+  border-radius: 12px;
+  object-fit: cover;
+
+}
+
+.Card_Right_Section img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.Card_Right_Section h3 {
+  color: #ff8d2f;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.product_content h5 {
+  color: #414449;
+  font-weight: 700;
+  max-width: 80%;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.product_content h6 {
+  font-weight: 400;
+  margin-top: 4px;
+  color: #8d8f91;
+}
+
+.View_Detail_Product_Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 10px;
+  border: 1px solid #ff8d2f;
+  color: #ff8d2f;
+  background-color: white;
+  margin: 0;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  max-width: 65%;
+}
+
+
+.Apply_coupon {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px dashed #414449;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.Apply_coupon h5 {
+  font-size: 14px;
+  color: #414449;
+  font-weight: 500;
+
+}
+
+.Apply_coupon h6 {
+  color: #277d2a;
+  font-size: calc(12px + 1 * (100vw - 320px) / 1600);
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+.ZomoSub_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ZomoSub_total h5 {
+  color: #414449;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ZomoGrand_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed black;
+  padding: 10px 0 0;
+}
+
+.ZomoGrand_total h5 {
+  color: #414449;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Zomo_Delivery_blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Zomo_Delivery_blk h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #414449;
+}
+
+.ZomoTotal_detail {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: calc(15px + 5 * (100vw - 320px) / 1600);
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0;
+}
+
+.ZomoCart_add_box {
+  display: flex;
+  justify-content: space-between;
+  padding: calc(10px + 10 * (100vw - 320px) / 1600);
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.ZomoCard_left_Blk img {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+}
+
+.ZomoAdd_Card_Content h5 {
+  color: #414449;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ZomoAdd_Card_Content h6 {
+  font-size: calc(12px + 1 * (100vw - 320px) / 1600);
+  font-weight: 500;
+  color: #8d8f91;
+
+}
+.Bottom_Section{
+  margin-bottom: 120px;
+}
+/*================= end_Css_For_Home_Section =====================*/
